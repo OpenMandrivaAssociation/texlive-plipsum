@@ -1,11 +1,11 @@
-# revision 27670
+# revision 30353
 # category Package
 # catalog-ctan /macros/plain/contrib/plipsum
-# catalog-date 2012-09-14 20:13:55 +0200
+# catalog-date 2013-05-09 11:57:32 +0200
 # catalog-license lppl
-# catalog-version 2.3
+# catalog-version 4.3
 Name:		texlive-plipsum
-Version:	2.3
+Version:	4.3
 Release:	1
 Summary:	'Lorem ipsum' for Plain TeX developers
 Group:		Publishing
@@ -37,9 +37,10 @@ ligatures of the font in use.
 %{_texmfdistdir}/tex/plain/plipsum/plipsum.tex
 %doc %{_texmfdistdir}/doc/plain/plipsum/README
 %doc %{_texmfdistdir}/doc/plain/plipsum/compile.sh
+%doc %{_texmfdistdir}/doc/plain/plipsum/plipsum-doc.pdf
 %doc %{_texmfdistdir}/doc/plain/plipsum/plipsum.nw
-%doc %{_texmfdistdir}/doc/plain/plipsum/plipsumdoc.pdf
 %doc %{_texmfdistdir}/doc/plain/plipsum/pliptest.tex
+%doc %{_texmfdistdir}/doc/plain/plipsum/stripc
 
 #-----------------------------------------------------------------------
 %prep
