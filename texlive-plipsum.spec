@@ -6,7 +6,7 @@
 # catalog-version 4.3
 Name:		texlive-plipsum
 Version:	4.3
-Release:	9
+Release:	10
 Summary:	'Lorem ipsum' for Plain TeX developers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/plipsum
