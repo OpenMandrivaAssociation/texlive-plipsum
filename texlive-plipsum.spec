@@ -1,18 +1,12 @@
-# revision 30353
-# category Package
-# catalog-ctan /macros/plain/contrib/plipsum
-# catalog-date 2013-05-09 11:57:32 +0200
-# catalog-license lppl
-# catalog-version 4.3
 Name:		texlive-plipsum
-Version:	4.3
-Release:	10
+Version:	30353
+Release:	1
 Summary:	'Lorem ipsum' for Plain TeX developers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/plipsum
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plipsum.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plipsum.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plipsum.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plipsum.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +19,12 @@ groups' (ff, fl etc.) so the text can act as a test of the
 ligatures of the font in use.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -44,7 +38,7 @@ ligatures of the font in use.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
