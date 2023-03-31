@@ -1,6 +1,6 @@
 Name:		texlive-plipsum
 Version:	30353
-Release:	1
+Release:	2
 Summary:	'Lorem ipsum' for Plain TeX developers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/plipsum
