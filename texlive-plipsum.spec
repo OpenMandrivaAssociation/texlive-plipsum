@@ -3,7 +3,7 @@ Version:	30353
 Release:	2
 Summary:	'Lorem ipsum' for Plain TeX developers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/plipsum
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/plipsum
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plipsum.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plipsum.doc.r%{version}.tar.xz
